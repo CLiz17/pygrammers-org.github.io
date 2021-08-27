@@ -1,9 +1,20 @@
+<<<<<<< HEAD
 .container-fluid {
    padding: 0;
+=======
+html,
+body {
+  margin: 0;
+  padding: 0;
+>>>>>>> f16bd2d1d8df364713fad87ee0fb09329c622865
 }
 
+/* .container-fluid {
+  padding: 0!important;
+} */
 
 #header {
+<<<<<<< HEAD
    background: #FFFFFF;
    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
@@ -54,3 +65,62 @@
    letter-spacing: 0em;
    text-align: center;
 }
+=======
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+#header ul li .nav-link {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  margin-left: 70px;
+  color: #4c585d;
+}
+
+#header .active {
+  color: #f1a501 !important;
+}
+
+#home .pygrammers {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #1196f6;
+}
+
+.why-we-exist .section-heading {
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+  color: #272d4e;
+}
+.why-we-exist .box {
+  max-width: 730px;
+  height: 412px;
+  background: #ffffff;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+}
+.why-we-exist .box p {
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 39px;
+  color: rgba(43, 43, 43, 0.8);
+}
+
+.shadow-box {
+  width: 678px;
+  height: 363px;
+  background: #ffffff;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+}
+>>>>>>> f16bd2d1d8df364713fad87ee0fb09329c622865
