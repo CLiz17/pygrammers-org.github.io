@@ -118,7 +118,7 @@ body {
   margin-top: -338px;
 }
 
-.importants-and-scope .section-heading {
+.importance-and-scope .section-heading {
   font-family: Circular Std;
   font-style: normal;
   font-weight: bold;
@@ -127,7 +127,7 @@ body {
   color: #272d4e;
 }
 
-.importants-and-scope .box {
+.importance-and-scope .box {
   max-width: 930px;
   height: 394px;
   background: #ffffff;
@@ -135,7 +135,7 @@ body {
   border-radius: 20px;
 }
 
-.importants-and-scope .box p {
+.importance-and-scope .box p {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
