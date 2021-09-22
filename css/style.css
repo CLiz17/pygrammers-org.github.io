@@ -145,6 +145,11 @@ body {
   color: rgba(29, 53, 71, 0.8);
 }
 
+.people-img {
+  width: 1412px;
+  height: 500px;
+}
+
 .copyright {
   font-family: Roboto;
   font-style: normal;
