@@ -117,3 +117,15 @@ body {
   border-radius: 20px;
   margin-top: -338px;
 }
+.square {
+  position: absolute;
+width: 100px;
+height: 100px;
+left: 155px;
+top: 1984px;
+
+background:  rgba(255, 195, 79, 0.1);
+border-radius: 15px;
+
+
+}
