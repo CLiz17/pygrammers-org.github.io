@@ -118,31 +118,4 @@ body {
   margin-top: -338px;
 }
 
-.section-heading{
-  font-family: Circular Std;
-  margin-top: 10%;
-}
-
-.rect{
-font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-background: #FFFFFF;
-border-radius: 0px 15px 15px 0px;
-margin: 0px;
-}
-
-.methods-sec{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.stories-section-heading{
-  font-family: Circular Std;
-font-style: normal;
-font-weight: bold;
-font-size: 55px;
-}
 
