@@ -71,6 +71,11 @@ body {
   color: #f1a501 !important;
 }
 
+#icon
+{
+  padding:7%;
+}
+
 #people {
   display: block;
   margin-left: auto;
