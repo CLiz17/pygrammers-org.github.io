@@ -140,11 +140,32 @@ margin: 0px;
   margin-bottom: 5%;
 }
 
-.stories-section-heading{
+.stories .section-heading {
   font-family: Circular Std;
-font-style: normal;
-font-weight: bold;
-font-size: 55px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+  color: #272d4e;
+}
+
+.left-heading1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5e6282;
+}
+
+.left-heading2 {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+  text-transform: capitalize;
+  color: #14183e;
 }
 
 .importance-and-scope .section-heading {
