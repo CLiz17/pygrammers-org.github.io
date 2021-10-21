@@ -1,31 +1,28 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+  text-decoration: none;
+  font-family: "Poppins"!important;
+  font-style: normal;
 }
 
-/* .container-fluid {
-  padding: 0!important;
-} */
-
 #header {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 #header ul li .nav-link {
-  font-family: Nunito;
-  font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 23px;
   letter-spacing: 1px;
   margin-left: 70px;
-  color: #4C585D;
+  color: #4c585d;
 }
 
 #header .active {
-  color: #F1A501 !important;
+  color: #f1a501 !important;
 }
 
 #hero .center {
@@ -71,6 +68,21 @@ body {
   color: #f1a501 !important;
 }
 
+#icon
+{
+  padding:7% 2%;
+}
+
+#shadow
+{
+  height: 20px;
+ 	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	box-shadow: 0 -20px 50px -20px #333;
+  margin: auto 10px; 
+}
+
 #people {
   display: block;
   margin-left: auto;
@@ -81,6 +93,16 @@ body {
   left: 416px;
   top: 692px;
   border-radius: 0px;
+}
+hr {
+  border:none;
+  height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px; 
 }
 
 .why-we-exist .section-heading {
@@ -94,7 +116,7 @@ body {
 
 .why-we-exist .box {
   max-width: 730px;
-  height: 412px;
+  max-height: 412vh;
   background: #ffffff;
   box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
   border-radius: 20px;
@@ -117,15 +139,157 @@ body {
   border-radius: 20px;
   margin-top: -338px;
 }
+
+
+.section-heading{
+  font-family: Circular Std;
+  margin-top: 10%;
+}
+
+.rect{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+background: #FFFFFF;
+border-radius: 0px 15px 15px 0px;
+margin: 0px;
+}
+
+.methods-sec{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.stories .section-heading {
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+  color: #272d4e;
+}
+
+.left-heading1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5e6282;
+}
+
+.left-heading2 {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+  text-transform: capitalize;
+  color: #14183e;
+}
+
+.stories .story-box1 {
+  max-width: 584vh;
+  max-height: 245vh;
+  left: 736px;
+  top: 4983px;
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 10px;
+  padding-left: 34px;
+  padding-top: 39px;
+  padding-right: 68px;
+  padding-bottom: 34px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #5e6282;
+}
+
+.stories .story-box2 {
+  max-width: 502vh;
+  max-height: 232vh;
+  left: 786px;
+  top: 5073px;
+  margin-left: 50px;
+  padding-left: 34px;
+  border: 2px solid #f7f7f7;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+    drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+    drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+    drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+    drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+  border-radius: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5e6282;
+}
+
+.importance-and-scope .section-heading {
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+  color: #272d4e;
+}
+
+.importance-and-scope .box {
+  max-width: 930px;
+  max-height: 394vh;
+  background: #ffffff;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.7);
+  border-radius: 20px;
+}
+
+.importance-and-scope .box p {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  min-height: 40vh;
+  text-align: center;
+  color: rgba(29, 53, 71, 0.8);
+}
+
+.people-img {
+  width: 1412px;
+  max-height: 500vh;
+}
+
+.copyright {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  color: #272d4e;
+}
+
 .square {
   position: absolute;
-width: 100px;
-height: 100px;
-left: 155px;
-top: 1984px;
+  width: 100px;
+  height: 100px;
+  left: 155px;
+  top: 1984px;
 
-background:  rgba(255, 195, 79, 0.1);
-border-radius: 15px;
+  background: rgba(255, 195, 79, 0.1);
+  border-radius: 15px;
 
 
 }
+
