@@ -7,6 +7,7 @@
   font-style: normal;
 }
 
+/* navbar */
 #header {
   background: #ffffff;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
@@ -25,13 +26,14 @@
   color: #f1a501 !important;
 }
 
+
+/* hero section */
 #hero .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-
 #hero h1 {
   margin-top: 4%;
   font-family: Poppins;
@@ -42,7 +44,6 @@
   letter-spacing: 0em;
   text-align: center;
 }
-
 #hero h2 {
   font-family: Poppins;
   font-size: 72px;
@@ -52,37 +53,11 @@
   letter-spacing: 0em;
   text-align: center;
 }
-
-#header ul li .nav-link {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 23px;
-  letter-spacing: 1px;
-  margin-left: 70px;
-  color: #4c585d;
-}
-
-#header .active {
-  color: #f1a501 !important;
-}
-
+/* hero section 2 buttons*/
 #icon
 {
   padding:7% 2%;
 }
-
-#shadow
-{
-  height: 20px;
- 	width: 100%;
-	height: 50px;
-	margin-top: 0;
-	box-shadow: 0 -20px 50px -20px #333;
-  margin: auto 10px; 
-}
-
 #people {
   display: block;
   margin-left: auto;
@@ -94,24 +69,27 @@
   top: 692px;
   border-radius: 0px;
 }
-hr {
-  border:none;
+/* hero section shadow line*/
+#shadow
+{
   height: 20px;
- 	width: 90%;
+ 	width: 100%;
 	height: 50px;
 	margin-top: 0;
-	border-bottom: 1px solid #1f1209;
-	box-shadow: 0 20px 20px -20px #333;
-  margin: -50px auto 10px; 
+	box-shadow: 0 -20px 50px -20px #333;
+  margin: auto 10px; 
 }
 
+/* styling each seaction heading*/
 .section-heading {
   font-weight: bold;
   font-size: 55px;
   line-height: 70px;
   color: #272d4e;
+  margin-top: 10%;
 }
 
+/* why we exist*/
 .why-we-exist .box {
   max-width: 730px;
   max-height: 412vh;
@@ -123,12 +101,12 @@ hr {
 .why-we-exist .box p {
   font-family: Circular Std;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 450;
   font-size: 24px;
   line-height: 39px;
   color: rgba(43, 43, 43, 0.8);
 }
-
+/* why we exist shadow box*/
 .shadow-box {
   width: 678px;
   height: 363px;
@@ -138,12 +116,48 @@ hr {
   margin-top: -338px;
 }
 
-
-.section-heading{
-  font-family: Circular Std;
-  margin-top: 10%;
+/* member benefits */
+.member-para
+{
+  padding-left: 20%;
+  margin: 0 0 20% 0;
+}
+.member{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
+/* importance and scope section*/
+.importance-and-scope
+{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.importance-and-scope .box {
+  max-width: 930px;
+  max-height: 394vh;
+  background: #ffffff;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.7);
+  border-radius: 20px;
+}
+
+.importance-and-scope .box p {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  min-height: 40vh;
+  text-align: center;
+  color: rgba(29, 53, 71, 0.8);
+}
+
+/* our methods section */
+.methods-sec{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/* our methods content box */
 .rect{
 font-family: Nunito Sans;
 font-style: normal;
@@ -158,22 +172,7 @@ box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
 
 }
 
-.member-para
-{
-  padding-left: 20%;
-  margin: 0 0 20% 0;
-}
-
-.member{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.methods-sec{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
+/* Stories left section */
 .left-heading1 {
   font-family: Poppins;
   font-style: normal;
@@ -192,7 +191,7 @@ box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
   text-transform: capitalize;
   color: #14183e;
 }
-
+/* Stories right section */
 .stories .story-box1 {
   max-width: 584vh;
   max-height: 245vh;
@@ -239,28 +238,6 @@ box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
   font-size: 18px;
   line-height: 27px;
   color: #5e6282;
-}
-.importance-and-scope
-{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-.importance-and-scope .box {
-  max-width: 930px;
-  max-height: 394vh;
-  background: #ffffff;
-  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.7);
-  border-radius: 20px;
-}
-
-.importance-and-scope .box p {
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  min-height: 40vh;
-  text-align: center;
-  color: rgba(29, 53, 71, 0.8);
 }
 
 .people-img {
